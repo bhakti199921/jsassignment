@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/registration.css">
+    <title>Resgistration form</title>
+</head>
+
+<body>
+    <h1 class="title">Resgistration Form</h1>
+    <form class="form" method="post" onsubmit="vali()" >
+        <div>
+            <label>First Name:</label>
+            <input type="text" id="fname">
+            <span id="fnameerror" class="error-text">enter valid username </span>
+        </div>
+        <div>
+            <label>Last Name:</label>
+            <input type="text" id="lname">
+            <span id="lnameerror" class="error-text"> enter valid LastName</span>
+        </div>
+        <div>
+            <label>Email:</label>
+            <input type="email" id="mail">
+            <span id="mailerror" class="error-text">enter valid email </span>
+        </div>
+        <div>
+            <label>Password:</label>
+            <input type="password" id="pwd">
+            <span id="pwderror" class="error-text">enter valid password</span>
+        </div>
+        <div>
+            <label>Confirm Password:</label>
+            <input type="password" id="cpwd">
+            <span id="cpwderror" class="error-text">password not match</span>
+        </div>
+        <div>
+            <button type="submit" id="submit" value="submit" >Submit</button>
+            <button type="reset">reset</button>
+        </div>
+       
+    </form>
+    <script src="js/validateform.js"></script>
+</body>
+
+</html>
