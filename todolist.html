@@ -9,7 +9,7 @@
 </head>
 <body>
     <div class="addtaskbtn-wrapper">
-        <label>Enter Task</label>
+        <label class="task">Enter Task</label>
         <input type="text" placeholder="Enter your task" id="addtaskinput">
         <button type="button" class="add" id="addtaskbtn">Add Task</button>
         <button type="button" class="add" id="savetaskbtn" style="display: none;">save Task</button>
@@ -18,14 +18,19 @@
     <div>
         <table class="" id="addedtasklist">
             <div style="display: flex;">
-                <h6 style="width: 100px;">sr. no.</h6><h6 style="width: 100px;">task</h6> <h6 style="width: 90px;">input</h6>
+                <table>
+                    <thead>
+                    <tr>
+                        <td>Sr. No.</td>
+                        <td>Task</td>
+                        <td>Input</td>
+                    </tr>
+                </thead>
+                <tbody id="tbody">
+
+                </tbody>
+                </table>
               </div>
-<!-- <tr>
-    <th style="width: 100px;">1</th>
-    <td style="width: 100px;">dummy task</td>
-    <td><button type="button" class="" >Edit</button></td>
-    <td><button type="button" class="">Delete</button></td>
-</tr> -->
     </table>
     </div>
     <script src="js/todo.js"></script>

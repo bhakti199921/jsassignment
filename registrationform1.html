@@ -7,48 +7,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/registrationform.css">
     <title>Resgistration form</title>
-    <style>
-        span{
-            color: red;
-        }
-    </style>
 </head>
 
 <body>
-    <h1 class="title">Resgistration Form</h1>
-    <form class="form" method="post" onsubmit="return vali()" action="imageslider.html" >
-        <div>
-            <label>First Name:</label>
-            <input type="text" id="fname" value="" onblur="fName()">
-            <span id="fnameerror" class="error-text"></span>
-        </div>
-        <div>
-            <label>Last Name:</label>
-            <input type="text" id="lname" value="" onblur="lName()">
-            <span id="lnameerror" class="error-text"></span>
-        </div>
-        <div>
-            <label>Email:</label>
-            <input type="email" id="mail"  value="" onblur="eMail()">
-            <span id="mailerror" class="error-text"> </span>
-        </div>
-        <div>
-            <label>Password:</label>
-            <input type="password" id="pwd"  value="" onblur="myPassword()">
-            <span id="pwderror" class="error-text"></span>
-        </div>
-        <div>
-            <label>Confirm Password:</label>
-            <input type="password" id="cpwd" value="" onblur="myConfirmpassword()">
-            <span id="cpwderror" class="error-text"></span>
-        </div>
-        <div>
-           <input type="submit" value="Submit">
-            <button type="reset">reset</button>
-        </div>
-       
-    </form>
-   <script src="js/registration.js"></script>
+    <div class="container">
+        <h1 class="title">Resgistration Form</h1>
+        <form class="form" method="post" onsubmit="return vali()" action="imageslider.html">
+            <div>
+                <label>First Name:</label>
+                <input type="text" id="fname" value="" onblur="fName()">
+                <span id="fnameerror" class="error-text"></span>
+            </div><br>
+
+            <div>
+                <label>Last Name:</label>
+                <input type="text" id="lname" value="" onblur="lName()">
+                <span id="lnameerror" class="error-text"></span>
+            </div><br>
+            <div>
+                <label>Email:</label>
+                <input type="email" id="mail" value="" onblur="eMail()">
+                <span id="mailerror" class="error-text"> </span>
+            </div><br>
+            <div>
+                <label>Password:</label>
+                <input type="password" id="pwd" value="" onblur="myPassword()">
+                <span id="pwderror" class="error-text"></span>
+            </div><br>
+            <div>
+                <label>Confirm Password:</label>
+                <input type="password" id="cpwd" value="" onblur="myConfirmpassword()">
+                <span id="cpwderror" class="error-text"></span>
+            </div><br>
+            <div>
+                <input type="submit" value="Submit">
+                <button type="reset">reset</button>
+            </div><br>
+
+        </form>
+
+    </div>
+    <script src="js/registration.js"></script>
 </body>
 
 </html>

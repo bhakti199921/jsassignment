@@ -1,4 +1,33 @@
 .addtaskbtn-wrapper{
     display:flex;
     flex-wrap:wrap;
+    margin-bottom:10px;
+}
+
+#addtaskinput{
+    margin-right:10px;
+}
+
+td{
+    width:100px;
+}
+
+.task{
+    margin-right:10px;
+}
+
+.edit{
+    color:white;
+   background-color:green;
+   
+}
+
+.delete{
+    color:white;
+    background-color:red;
+}
+
+.add{
+    color:white;
+    background-color:blue;
 }

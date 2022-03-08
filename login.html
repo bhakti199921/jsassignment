@@ -4,29 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <title>login</title>
+    <title>form</title>
+    <link rel="stylesheet" href="css/create.css">
 </head>
 <body>
-    <form class="form" method="post" onsubmit="vali()">
-        <div>
-            <label>Email:</label>
-            <input type="email" id="mail">
-            <span id="mailerror" class="error-text">enter valid email </span>
-        </div>
-        <div>
-            <label>Password:</label>
-            <input type="password" id="pwd">
-            <span id="pwderror" class="error-text">enter valid password</span>
-        </div>
-        <div>
-            <input type="checkbox">
-            <label>Remember me</label>
-        </div>
-        <div>
-            <button type="submit" id="submit" value="submit">Submit</button>
-        </div>
+    <h2>Login</h2>
+    <form onsubmit="return myFun()" action="imageslider.html">
+        <label>Email</label>
+        <input type="text" id="User_Name" value=""><br>
+        <span id="Message"></span>
+        <br><br>
+        <label>Password</label>
+        <input type="password" id="pwd" value=""><br>
+        <span id="msg"></span>
+  
+       <div class="rememberme">
+        <input type="checkbox" name="" id="">
+        <label>Remember me</label>
+      
+       </div>
+       <input type="submit" value="Submit">
     </form>
-    <script src="js/loginform.js"></script>
+    <script src="js/app.js"></script>
 </body>
 </html>
