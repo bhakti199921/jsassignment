@@ -8,5 +8,5 @@ window.onload = function () {
         image.src = img_array[index++ % img_array.length]; //After that index is incremented to 1.
     }
 
-    setInterval(slide, 3000);
+    setInterval(slide, 2000);
 }

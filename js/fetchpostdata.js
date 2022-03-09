@@ -10,11 +10,11 @@ fetch(URL)
     console.log('error: ' + err);
 });
 function appendData(data) {
-var mainContainer = document.getElementById("myData");
+var mydata = document.getElementById("myData");
 for (var i = 0; i < data.length; i++) {
     var div = document.createElement("div");
     div.innerHTML = 'title: ' + data[i].title + '<br>body: ' + data[i].body+'<hr>';
-    mainContainer.appendChild(div);
+    mydata.appendChild(div);
 }
 }
 

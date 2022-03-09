@@ -26,7 +26,7 @@ return false;
 lerror.style.display='block';
 return true;
 }
-return
+
 });
 
 lastName.addEventListener('input',function(d){

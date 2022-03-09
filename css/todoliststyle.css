@@ -1,15 +1,15 @@
 .addtaskbtn-wrapper{
     display:flex;
     flex-wrap:wrap;
-    margin-bottom:10px;
+    margin:20px 0 10px 0;
 }
 
 #addtaskinput{
     margin-right:10px;
 }
 
-td{
-    width:100px;
+th{
+width:150px;
 }
 
 .task{
@@ -30,4 +30,9 @@ td{
 .add{
     color:white;
     background-color:blue;
+}
+
+.container{
+    /* max-width:4px; */
+    margin:0 auto;
 }

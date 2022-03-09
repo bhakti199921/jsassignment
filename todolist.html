@@ -4,10 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/todoliststyle.css">
     <title>Document</title>
 </head>
 <body>
+    <section class="container">
+    
     <div class="addtaskbtn-wrapper">
         <label class="task">Enter Task</label>
         <input type="text" placeholder="Enter your task" id="addtaskinput">
@@ -16,14 +19,14 @@
         <input type="hidden" id="saveindex">
     </div>
     <div>
-        <table class="" id="addedtasklist">
+        <table class="table" id="addedtasklist">
             <div style="display: flex;">
                 <table>
                     <thead>
                     <tr>
-                        <td>Sr. No.</td>
-                        <td>Task</td>
-                        <td>Input</td>
+                        <th>Sr. No.</th>
+                        <th>Task</th>
+                        <th>Input</th>
                     </tr>
                 </thead>
                 <tbody id="tbody">
@@ -33,6 +36,10 @@
               </div>
     </table>
     </div>
+</section>
     <script src="js/todo.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.usebootstrap.com/bootstrap/4.6.0/js/bootstrap.min.js"></script>
+<script src="https://cdn.usebootstrap.com/bootstrap/4.6.0/js/bootstrap.bundle.min.js"></script> 
 </body>
 </html>
